@@ -1,0 +1,20 @@
+{
+    "description": "Dark grey theme for that matches Flatabulous Ubuntu theme.",
+    "manifest_version": 2,
+    "name": "Flatabulous",
+    "version": "1.0",
+    "homepage_url": "https://github.com/anibyl/firefox-flatabulous",
+    "theme": {
+        "images": {
+            "headerURL": "1px.png"
+        },
+        "colors": {
+            "accentcolor": "#222",
+            "textcolor": "white",
+            "toolbar": "#333",
+            "toolbar_text": "white",
+            "toolbar_field": "#222",
+            "toolbar_field_text": "white"
+        }
+    }
+}
