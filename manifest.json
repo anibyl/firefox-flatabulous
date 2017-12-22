@@ -16,5 +16,11 @@
             "toolbar_field": "#222",
             "toolbar_field_text": "white"
         }
+    },
+    "applications": {
+        "gecko": {
+            "id": "firefox-flatabulous@anibyl.org",
+            "strict_min_version": "57.0"
+        }
     }
 }
