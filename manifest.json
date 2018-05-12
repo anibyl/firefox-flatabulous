@@ -1,20 +1,47 @@
 {
-    "description": "Dark gray theme for that matches Flatabulous Ubuntu theme.",
+    "description": "Dark gray theme that matches Flatabulous Ubuntu theme.",
     "manifest_version": 2,
     "name": "Flatabulous",
-    "version": "1.0",
+    "version": "1.1",
     "homepage_url": "https://github.com/anibyl/firefox-flatabulous",
     "theme": {
         "images": {
-            "headerURL": "1px.png"
+            "headerURL": "1px.png",
+            "theme_frame": "1px.png"
         },
         "colors": {
-            "accentcolor": "#222",
-            "textcolor": "white",
-            "toolbar": "#333",
-            "toolbar_text": "white",
-            "toolbar_field": "#222",
-            "toolbar_field_text": "white"
+            "accentcolor": [34, 34, 34],
+            "button_background_active": [34, 34, 34],
+            "button_background_hover": [51, 51, 51],
+            "icons": [255, 255, 255],
+            "icons_attention": [255, 255, 255],
+            "popup": [51, 51, 51],
+            "popup_border": [51, 51, 51],
+            "popup_highlight": [122, 125, 129],
+            "popup_highlight_text": [255, 255, 255],
+            "popup_text": [255, 255, 255],
+            "tab_line": [51, 51, 51],
+            "tab_loading": [255, 255, 255],
+            "tab_selected": [51, 51, 51],
+            "tab_text": [255, 255, 255],
+            "textcolor": [255, 255, 255],
+            "toolbar": [51, 51, 51],
+            "toolbar_bottom_separator": [51, 51, 51],
+            "toolbar_field": [34, 34, 34],
+            "toolbar_field_border": [34, 34, 34],
+            "toolbar_field_border_focus": [34, 34, 34],
+            "toolbar_field_focus": [34, 34, 34],
+            "toolbar_field_separator": [51, 51, 51],
+            "toolbar_field_text": [255, 255, 255],
+            "toolbar_field_text_focus": [255, 255, 255],
+            "toolbar_text": [255, 255, 255],
+            "toolbar_top_separator": [51, 51, 51],
+            "toolbar_vertical_separator": [51, 51, 51],
+
+            "bookmark_text": [255, 255, 255],
+            "frame": [34, 34, 34],
+            "frame_inactive": [34, 34, 34],
+            "tab_background_text": [255, 255, 255]
         }
     },
     "applications": {
