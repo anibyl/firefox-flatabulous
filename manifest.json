@@ -2,7 +2,7 @@
     "description": "Dark gray theme that matches Flatabulous Ubuntu theme.",
     "manifest_version": 2,
     "name": "Flatabulous",
-    "version": "1.1",
+    "version": "1.2",
     "homepage_url": "https://github.com/anibyl/firefox-flatabulous",
     "theme": {
         "images": {
@@ -41,6 +41,7 @@
             "bookmark_text": [255, 255, 255],
             "frame": [34, 34, 34],
             "frame_inactive": [34, 34, 34],
+            "tab_background_separator": [51, 51, 51],
             "tab_background_text": [255, 255, 255]
         }
     },
